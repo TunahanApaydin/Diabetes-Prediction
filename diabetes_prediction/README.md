@@ -30,7 +30,7 @@ And the weights obtained for all classes are given as a parameter to the loss fu
 ---
 In the training code, the model is trained as much as the number of epochs set in the config file. Loss and accuracy are calculated on training and validation sets. These calculated values are graphically saved in the ```graphs/loss_acc_graphs``` folder at the end of the training. The best model during the training and the last model at the end of the training are saved in the ```saved_model``` folder.
 
-Sample loss and accuracy graph:
+Example loss and accuracy graph:
 ![20e_0 001lr](https://github.com/TunahanApaydin/Pytorch-Examples/assets/79514917/fa9d4fcb-209c-4626-80a1-fea37da84807)
 
 
