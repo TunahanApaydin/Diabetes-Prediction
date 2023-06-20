@@ -18,7 +18,7 @@ The dataset is transferred to the model with the ```dataloader.py``` code. This 
 All parameters and paths used for model training and inference are read from the ```diabetes_prediction_config.ini``` config file with the code ```model_config_loader.py```.
 
 ### Model Training
-Now we have the model and the dataset but for a good model, it is important that the data set is balanced.
+Now we have the model and the dataset but for a good model, it is important that the dataset is balanced.
 ![class_counts](https://github.com/TunahanApaydin/Pytorch-Examples/assets/79514917/1dbf0a54-dae9-4f6f-81dc-402622cb6784)
 
 As you can see, the data set is imbalanced. The 'class weight balancer' operation can be applied for training unbalanced data sets. The following formula can be used to achieve this:
