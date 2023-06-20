@@ -35,7 +35,7 @@ Sample loss and accuracy graph:
 
 
 ### Model Inference
-In the Inference code, the model is tested on the test data read through the dataloader.py code. The performance on the test data is calculated and the inference results are saved in the 'inference_results' folder in csv format. The confusion matrix graph is saved in the 'graphs' folder. This chart will be useful for analyzing model performance.
+In the Inference code, the model is tested on the test data read through the dataloader.py code. The performance on the test data is calculated and the inference results are saved in the ```inference_results``` folder in csv format. The confusion matrix graph is saved in the ```graphs``` folder. This chart will be useful for analyzing model performance.
 
 Example confusion matrix graph:
 ![confusion matrix](https://github.com/TunahanApaydin/Pytorch-Examples/assets/79514917/f82e5008-4dc9-449d-8066-e3f07007cf4d)
