@@ -11,7 +11,7 @@ The dataset used to train the model consists of 100000 data. In order to better 
 split_dataset.py
 ```
 
-### Creating Dataloader
+### Dataloader
 The dataset is transferred to the model with the ```dataloader.py``` code. This code reads data from csv file. It applies one hot encoding to the categorical data. Returns input and output data as tensor.
 
 ### Hyperparameter Reader
@@ -35,7 +35,6 @@ train.py
 
 Example loss and accuracy graph:
 ![20e_0 001lr](https://github.com/TunahanApaydin/Pytorch-Examples/assets/79514917/fa9d4fcb-209c-4626-80a1-fea37da84807)
-
 
 ### Model Inference
 In the Inference code, the model is tested on the test data read through the dataloader.py code. The performance on the test data is calculated and the inference results are saved in the ```inference_results``` folder in csv format. The confusion matrix graph is saved in the ```graphs``` folder. This chart will be useful for analyzing model performance. Check:
