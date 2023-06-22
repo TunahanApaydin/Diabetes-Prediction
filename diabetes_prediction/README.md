@@ -28,14 +28,20 @@ class weight = 1 - (class counts/total count)
 And the weights obtained for all classes are given as a parameter to the loss function. For example ```loss_fn = nn.CrossEntropyLoss(weight = class_weights)```
 
 ---
-In the training code, the model is trained as much as the number of epochs set in the config file. Loss and accuracy are calculated on training and validation sets. These calculated values are graphically saved in the ```graphs/loss_acc_graphs``` folder at the end of the training. The best model during the training and the last model at the end of the training are saved in the ```saved_model``` folder.
+In the training code, the model is trained as much as the number of epochs set in the config file. Loss and accuracy are calculated on training and validation sets. These calculated values are graphically saved in the ```graphs/loss_acc_graphs``` folder at the end of the training. The best model during the training and the last model at the end of the training are saved in the ```saved_model``` folder. Check:
+```bash
+train.py
+```
 
 Example loss and accuracy graph:
 ![20e_0 001lr](https://github.com/TunahanApaydin/Pytorch-Examples/assets/79514917/fa9d4fcb-209c-4626-80a1-fea37da84807)
 
 
 ### Model Inference
-In the Inference code, the model is tested on the test data read through the dataloader.py code. The performance on the test data is calculated and the inference results are saved in the ```inference_results``` folder in csv format. The confusion matrix graph is saved in the ```graphs``` folder. This chart will be useful for analyzing model performance.
+In the Inference code, the model is tested on the test data read through the dataloader.py code. The performance on the test data is calculated and the inference results are saved in the ```inference_results``` folder in csv format. The confusion matrix graph is saved in the ```graphs``` folder. This chart will be useful for analyzing model performance. Check:
+```bash
+diabetes_test_dataset_inference.py
+```
 
 Example confusion matrix graph:
 ![confusion matrix](https://github.com/TunahanApaydin/Pytorch-Examples/assets/79514917/f82e5008-4dc9-449d-8066-e3f07007cf4d)
