@@ -6,7 +6,7 @@ The 6-layer model with 15 inputs and 2 outputs was created using Pytorch. The mo
 model_net.py
 ```
 ### Creating Dataset
-The dataset used to train the model consists of 100000 data. In order to better analyze the model performance, the data set was divided into train, validation and test parts. Check:
+The dataset used to train the model consists of 100000 data. In order to better analyze the model performance, the dataset was divided into train, validation and test parts. Check:
 ```bash
 split_dataset.py
 ```
